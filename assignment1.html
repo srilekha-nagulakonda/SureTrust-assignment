@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="icon" href="htmlpic.jpg" type="image/x-icon" />
+    <style>
+      .pic {
+        color: blue;
+      }
+      tr,
+      td,
+      th {
+        border: 1px solid rgb(26, 173, 122);
+        padding: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to html course</h1>
+
+    <!-- first we start with headings -->
+
+    <h1>Heading1</h1>
+    <h2>Heading2</h2>
+    <h3>Heading3</h3>
+    <h4>Heading4</h4>
+    <h5>Heading5</h5>
+    <h6>Heading6</h6>
+
+    <!--paragraph and pre elements-->
+    <section>
+      <pre
+        id="pre"
+        style="background-color: rgb(236, 226, 226); text-align: center"
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat in ad
+        vero saepe nulla, illum debitis porro quod optio non maiores neque
+        perspiciatis ex magni hic molestiae nostrum vitae.
+      </pre>
+      <p id="para" style="color: brown; font-size: large">
+        Lorem ipsum dolor <b>Srilekha</b> <i>Nagulakonda</i>sit amet
+        consectetur, adipisicing elit. Atque similique itaque reprehenderit non,
+        alias aperiam nisi consectetur ducimus voluptatibus vitae accusamus
+        assumenda psum temporibus aut veritatis minima vero quaerat facere!
+      </p>
+
+      <section>
+        <h1>Html Formatting</h1>
+        <br />
+        <q>LST Session</q><br />
+        <sub>10 <sup>2</sup></sub
+        ><br />
+
+        <mark>SureTrust</mark><br />
+        <ins>Life Begins agian when u know Yourself</ins><br />
+        <blockquote>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur,
+          facere. Saepe ab dolorem perspiciatis, asperiores consequatur tempora
+          dolores ut officia iusto autem
+          <abbr title="world health origanisation">WHO</abbr> rem voluptatem
+          accusantium excepturi facilis cumque in obcaecati.
+        </blockquote>
+        <br />
+        <address style="border: 2px solid red">
+          syco city, near sycos, hyderabad
+        </address>
+        <br />
+      </section>
+      <br />
+      <img src="htmlpic.jpg" alt="flowers" style="height: 400px" />
+    </section>
+    <br />
+    <a
+      href="https://www.google.com/"
+      title="this link is belong to google"
+      target="_blank"
+      >You can click here to download</a
+    ><br />
+
+    <!-- Here some links  to visit -->
+    <h3>Links :</h3>
+    <br />
+    <a href="#para">Paragraph</a><br />
+    <a href="#pre">pre</a>
+    <hr />
+    <a href="malto:srilekha222@gmail.com">mail id</a><br />
+    <a href="tel:200887868">Telephone number</a><br />
+
+    <div>
+      <p
+        style="
+          background-image: url('flower.gif');
+          background-repeat: no-repeat;
+          height: 200px;
+        "
+      >
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        molestiae accusamus voluptas quam sunt facere excepturi laborum? Rerum
+        cum, adipisci consequuntur ipsa sapiente eligendi, maxime eaque
+        cupiditate ullam quisquam nostrum!
+      </p>
+    </div>
+
+    <div>
+      <h1>Tables</h1>
+      <table style="border: 2px solid blue">
+        <tr>
+          <th>Branch</th>
+          <td>ECE</td>
+          <td>CSE</td>
+          <td>MECH</td>
+        </tr>
+        <tr>
+          <th>Grade</th>
+          <td>srilu</td>
+          <td>puji</td>
+          <td>manju</td>
+        </tr>
+        <tr>
+          <th>Marks</th>
+          <td>89</td>
+          <td>90</td>
+          <td>80</td>
+        </tr>
+        0
+      </table>
+      <hr />
+      <table style="border: 2px solid rgb(108, 12, 70)">
+        <caption>
+          Grades depends on capacity
+        </caption>
+        <tr>
+          <th rowspan="2">Branch</th>
+          <td>ECE</td>
+          <td>CSE</td>
+          <td>MECH</td>
+        </tr>
+        <tr>
+          <td>srilu</td>
+          <td>puji</td>
+          <td>manju</td>
+        </tr>
+        <tr>
+          <th>Marks</th>
+          <td>89</td>
+          <td>90</td>
+          <td>80</td>
+        </tr>
+        <colgroup>
+          <col style="background-color: rgb(165, 183, 131)" />
+          <col style="background-color: rgb(103, 77, 128)" span="3" />
+        </colgroup>
+      </table>
+    </div>
+    <div>
+      <h1>Lists</h1>
+      <h2>ordered:</h2>
+      <ol>
+        <li>Apple</li>
+        <li>Ball</li>
+        <li>Cat</li>
+        <li>Dog</li>
+      </ol>
+      <h2>Unordered:</h2>
+      <ul>
+        <li>Apple</li>
+        <li>Ball</li>
+        <li>Cat</li>
+        <li>Dog</li>
+      </ul>
+    </div>
+    <div>
+      <h2>Discription Lists</h2>
+      <dl>
+        <dt>coffee</dt>
+        <dd>Taste is marvolus</dd>
+        <dt>Tea</dt>
+        <dd>It reduces stress</dd>
+      </dl>
+    </div>
+
+    <div>
+      <h1>Iframe Example</h1>
+      <iframe src="https://www.google.com/" name="iframe"></iframe>
+      <a href="https://www.w3schools.com" target="iframe">Click Here</a>
+    </div>
+    <div>
+      <img src="flower.gif" alt="flower" height="300px" width="300px" />
+
+      <!-- Two types of vedio upload -->
+      <video controls>
+        <source src="bear.mp4" type="video/mp4" />
+      </video>
+      <video src="bear.mp4" loop autoplay></video>
+    </div>
+    <!---->
+    <!-- ----------Forms topic started------------->
+    <h1>Registration Form</h1>
+
+    <form action="url" autocomplete="on">
+      <fieldset>
+        <legend>personlia:</legend>
+        <label for="username">username</label>
+        <input type="text" id="username" required />
+        <br />
+        <label for="surname">surname</label>
+        <input type="text" id="surname" />
+        <br />
+        <label for="password">password</label>
+        <input type="password" id="password" />
+        <br />
+        <label for="">Gender:</label><br />
+        <input type="radio" id="boy" name="gender" />
+        <label for="boy">boy</label><br />
+        <input type="radio" id="girl" name="gender" />
+        <label for="girl">girl</label><br />
+        <input type="radio" id="other" name="gender" />
+        <label for="other">other</label>
+
+        <!-------check box-->
+
+        <h2>which vehicals are you have:</h2>
+        <input type="checkbox" id="car" />
+        <label for="car">car</label><br />
+        <input type="checkbox" id="bike" />
+        <label for="bike">bike</label><br />
+        <input type="checkbox" id="cycle" />
+        <label for="cycle">cycle</label><br />
+
+        <label for="down">choose one class</label><br />
+        <select name="drop" id="down" size="3" multiple>
+          <option value="10th">10th class</option>
+          <option value="11th">11th class</option>
+          <option value="12th">12th class</option></select
+        ><br />
+
+        <textarea name="drop" id="down" cols="30" rows="10">
+        write about your class
+      </textarea
+        ><br />
+
+        <!-- <datalist id="e">
+          <option value="excellent">excellent</option>
+          <option value="pass">pass</option>
+          <option value="fail">fail</option>
+        </datalist> -->
+        <input type="number" min="0" max="100" step="10" value="30" /><br />
+
+        <input type="range" min="0" max="100" /><br />
+
+        <input type="search" placeholder="search Here" />
+        <label for="serch">search</label>
+        <br />
+
+        <label for="db">Date of birth:</label>
+        <input type="date" />
+        <input type="time" />
+        <br />
+
+        <input type="url" />url
+        <br />
+        <input type="submit" value="submit" />
+      </fieldset>
+    </form>
+  </body>
+</html>
